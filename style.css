@@ -1,0 +1,177 @@
+html,body{
+    background-color: black;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+    box-sizing: border-box;
+    font-family:  Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.nav-logo{
+    margin-left: 26px;
+}
+.logo{
+    color: rgb(255, 33, 33);
+    font-family:cursive;
+    font-size: 33px;
+     font-weight: 500;
+}
+.first{
+    color: chartreuse;
+}
+.second{
+    color:turquoise;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    align-items: center;
+    font-weight: 500;
+    height: 80px;
+}
+.nav-section{
+    margin-right: 17px;
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 3px 6px;
+    color: rgb(177, 175, 175);
+}
+nav a:hover{
+    color: white;
+}
+nav button{
+    margin-right: 38px;
+    border: 3px solid grey;
+    background-color: black;
+    color: rgb(213, 207, 207);
+    border-radius: 18px;
+    padding: 4px 8px;
+    font-size: 15px;
+}
+nav button:hover{
+        border: 3px solid White;
+}
+i{
+    display: none;
+}
+.container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    text-align: center;
+}
+h1{
+    margin-top: 40px;
+}
+.e{
+    color:red;
+}
+.v{
+    color: rgb(2, 250, 2);
+}
+.ee{
+    color: rgb(255, 255, 68);
+}
+.r{
+    color:deepskyblue;
+}
+.y{
+    color: fuchsia;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.current-color{
+    margin-left: 20px;
+    font-weight: 700;
+}
+.container button{
+    margin: 20px;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    border: 3px solid grey;
+    border-radius: 18px;
+    font-size: 20px;
+    padding: 3px 6px;
+}
+.container button:hover{
+    border: 3px solid white;
+    color: #c5c4c4;
+}
+button{
+    cursor: pointer;
+}
+@media (min-width:950Px) {
+    .nav-section{
+        gap: 64px;
+    }
+    nav a{
+        font-size: 18px;
+    }
+    .container{
+        text-align: center;
+        font-size: 19px;
+    }
+}
+@media (max-width:650px) {
+    .nav-section a{
+        display: none;
+    }
+    nav h2{
+        font-size: 25px;
+        font-weight: 700;
+        font-family:cursive;
+    }
+    nav i{
+        margin-right: 24px;
+        font-size: 23px;
+        font-weight: 300;
+        display: block;
+    }
+    .nav-btn button{
+        margin-right: -10px;
+        font-size: 20px;
+        font-weight: 550;
+    }
+    .btn button{
+        padding: 4px 10px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .container{
+        text-align: center;
+    }
+}
+.smile{
+    margin-top: -58px;
+    margin-right: 49px;
+    height: 40px;
+    width: 40px;
+    color: rgb(255, 1, 1);
+    font-size: 100px;
+}
+.footer{
+    border-top: 1px solid rgb(107, 107, 107);
+    border-bottom: 1px solid rgb(107, 107, 107);
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 19px;
+}
