@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.1/math.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Grid Calculator</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-logo">
+            <h2 class="logo"><span class="first">Calculator</h2>
+        </div>
+        <div class="nav-section">
+            <a href="#">Home</a>
+            <a href="#" target="_blank">Services</a>
+            <a href="#" target="_blank">Offers</a>
+            <a href="#" target="_blank">About us</a>
+        </div>
+        <div class="nav-btn">
+            <button>Sign in</button>
+        </div>
+        <i class="ri-menu-3-fill"></i>
+    </nav>
+
+    <div class="container">
+        <div id="calculator">
+            <input type="text" id="display" readonly />
+
+            <div class="button-container">
+                <button class="button AC">AC</button>
+                <button class="button">00</button>
+                <button class="button">%</button>
+                <button class="button operator">/</button>
+
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button operator">*</button>
+
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button operator">-</button>
+
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button operator">+</button>
+
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button equal">=</button>
+                <button class="button toggle-advanced" id="toggle-advanced">
+                    ƒx <i class="ri-arrow-drop-down-fill" id="down"></i><i class="ri-arrow-drop-up-fill" id="up"></i>
+                </button>
+            </div>
+
+            <div id="advanced-buttons">
+                <button class="button advanced">√</button>
+                <button class="button advanced">(</button>
+                <button class="button advanced">)</button>
+                <button class="button advanced">^</button>
+
+                <button class="button advanced">π</button>
+                <button class="button advanced">log</button>
+                <button class="button advanced">sin</button>
+                <button class="button advanced">cos</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            Copyight &copy; <span class="date"></span>, All right reserved.
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
